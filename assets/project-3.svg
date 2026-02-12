@@ -1,0 +1,29 @@
+<svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="projGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#282a36;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1b26;stop-opacity:1" />
+    </linearGradient>
+    <filter id="projShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="300" height="160" rx="12" fill="url(#projGrad)" filter="url(#projShadow)"/>
+  <rect x="10" y="10" width="300" height="80" rx="12" fill="#ffffff" fill-opacity="0.03"/>
+  <rect x="10" y="10" width="300" height="160" rx="12" stroke="#6366f1" stroke-width="1" stroke-opacity="0.2" fill="none"/>
+
+  <text x="30" y="45" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">⚡ API Gateway Service</text>
+  <text x="30" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#94a3b8">High-performance REST API built with Go</text>
+  <text x="30" y="85" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#94a3b8">featuring caching and rate limiting.</text>
+
+  <rect x="30" y="100" width="35" height="20" rx="4" fill="#00ADD8" fill-opacity="0.2"/>
+  <text x="47" y="114" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#22d3ee" text-anchor="middle">Go</text>
+  <rect x="72" y="100" width="48" height="20" rx="4" fill="#DC382D" fill-opacity="0.2"/>
+  <text x="96" y="114" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#f87171" text-anchor="middle">Redis</text>
+  <rect x="128" y="100" width="60" height="20" rx="4" fill="#c0765a" fill-opacity="0.2"/>
+  <text x="158" y="114" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#fdba74" text-anchor="middle">MariaDB</text>
+
+  <rect x="30" y="130" width="90" height="28" rx="6" fill="#6366f1"/>
+  <rect x="30" y="130" width="90" height="14" rx="6" fill="#ffffff" fill-opacity="0.1"/>
+  <text x="75" y="149" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle">View Repo</text>
+</svg>
